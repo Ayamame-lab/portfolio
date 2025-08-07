@@ -1373,7 +1373,8 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						  filter: brightness(150%) opacity(0.5);
+
 					}
 
 					#header nav ul li a:active {
@@ -1663,3 +1664,4 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
